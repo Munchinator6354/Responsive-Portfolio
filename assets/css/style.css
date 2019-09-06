@@ -14,7 +14,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    /* I would like to change the height here to be 500px minimum with maximum of auto/content size.*/
     height: 500px;
     padding: 10px
 }
@@ -51,7 +50,7 @@ header {
     color: #ffffff;
     font-size: 40px;
     padding: 15px;
-    margin-left: 203px;
+    margin-left: 100px;
 }
 
 nav{
@@ -59,7 +58,7 @@ nav{
     width: auto;
     position: absolute;
     right: 0px;
-    margin-right: 168px;
+    margin-right: 100px;
 }
 
 .thumbnail {
@@ -111,6 +110,19 @@ li {
 
 }
 
+.tealPadding {
+    padding: 10px;
+    background-color: #4aaaa5; 
+    width: 200px;
+}
+
+.widerInputs {
+    width: 500px;
+}
+
+
+
+
 @media only screen and (max-width: 640px) {
     body {
       background-color:black;
@@ -125,23 +137,61 @@ li {
         height: 300px;
     }
 
-
-    
+    .floatedProjectpic {
+        width:100%;
+        height: 300px;
     }
+    .widerInputs {
+        width: 100%;
+    }
+    /**Pseudocode: Need to make nameplate/brand stay above the navbar when reduced screen width**/
   }
-
-
-
-
 
 @media only screen and (max-width: 768px) {
     body {
-        background-color: lightblue;
+      background-color:black;
     }
+    .container {
+        width:90%;
+        margin-left:20px;
+        margin-right: 20px;    
+    }
+    .thumbnail {
+        width:100%;
+        height: 300px;
+    }
+    
+    .floatedProjectpic {
+        width:50%;
+        height: 300px;
+    }
+    .widerInputs {
+        width: 100%;
 }
+    #nameplate {
+        margin-left: 20px;
+    }
+    nav {
+        margin-right: 20px;
+}
+
+    .tallerTextinput {
+        height: 300px;
+        /** Pseudocode: I think this might just be making text taller? Need to make the box itself taller**/
+    }
 
 @media only screen and (max-width: 980pxx) {
     body {
       background-color: lightblue;
+    }
+    #nameplate {
+        margin-left: 100px;
+    }
+    nav {
+        margin-right: 100px;
+    }
+    .container {
+        /**Pseudocode: Float/position the center main container up and to the left section of the page leaving a bigger padding area between it and the marin on the right, while reducing the width of it compared to the entire page.**/
+        padding-right: 100px; /**Pseudocode: Not enough time!!!**/
     }
   }

@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page - Ryan Isaacson</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
@@ -33,19 +34,19 @@
             Contact
         </h1>
 
-        <!--I need to figure out how to add a contact form here. What I found online involved PHP and confused me with less than an hour to submit the homework, not enough time to investigate now.-->
+        <!--I need to figure out how to widen the input fields, I tried this via the "widerInputs" on the smaller media query but failed.-->
         <form action="/my-handling-form-page" method="post">
             <div>
               <label for="name">Name:</label>
-              <input type="text" id="name" name="user_name">
+              <input class="widerInputs" type="text" id="name" name="user_name">
             </div>
             <div>
-              <label for="mail">E-mail:</label>
-              <input type="email" id="mail" name="user_mail">
+              <label class="widerInputs" for="mail">E-mail:</label>
+              <input class="widerInputs" type="email" id="mail" name="user_mail">
             </div>
             <div>
-              <label for="msg">Message:</label>
-              <textarea id="msg" name="user_message"></textarea>
+              <label class="widerInputs" for="msg">Message:</label>
+              <textarea class="widerInputs" class="tallerTextinput" id="msg" name="user_message"></textarea>
             </div>
           </form>
           <p>Contact form will go here including User's Name, User's Email, and User's Message to Ryan Isaacson (Ryan last minute added these form boxes, but doesn't fully understand them yet, they're copied/pasted code.</p>
