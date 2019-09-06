@@ -1,0 +1,147 @@
+
+body{
+    background-image: url(../images/qw.gif);
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.container {
+    margin-top: 100px;
+    border-color: #dddddd;
+    background-color: #ffffff;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    /* I would like to change the height here to be 500px minimum with maximum of auto/content size.*/
+    height: 500px;
+    padding: 10px
+}
+
+.headings {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.fontchanger {
+    font-family: Arial, 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    color: #4aaaa5;
+}
+
+header {
+    background: #ffffff;
+    border: 1px;
+    border-color: #cccccc;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#nameplate {
+    background: #4aaaa5;
+    display: inline-block;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 15px;
+    margin-left: 203px;
+}
+
+nav{
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    right: 0px;
+    margin-right: 168px;
+}
+
+.thumbnail {
+    height: 200px;
+    width: 325px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+    /* Still need to figure out why the teal line on top of footer doesn't show up*/
+
+footer {
+    height: 55px;
+    background-color: #666666;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border-color: #4aaaa5;
+    text-align: center;
+    vertical-align: text-bottom;
+    
+}
+
+p {
+    display: inline-block;
+}
+
+ul {
+    margin-top: 40px;
+    margin-right: 1em;
+    float: right;
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    padding: 20px; 
+}
+
+#footernotes {
+    bottom: 0;
+    color: #ffffff;
+}
+
+.floatedProjectpic {
+    float: left;
+
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+      background-color:black;
+    }
+    .container {
+        width:90%;
+        margin-left:20px;
+        margin-right: 20px;    
+    }
+    .thumbnail {
+        width:100%;
+        height: 300px;
+    }
+
+
+    
+    }
+  }
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 980pxx) {
+    body {
+      background-color: lightblue;
+    }
+  }

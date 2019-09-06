@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Page - Ryan Isaacson</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div ID="nameplate" class="headings">
+            Ryan Isaacson
+        </div>
+        
+        <!-- I need to figure out how to make the Nav not overlap the "Nameplate" when screen gets smaller-->
+
+        <nav>
+            <ul class="fontchanger">
+                <li><a href="index.html"> About </a>
+                </li>
+                <li><a href="portfolio.html"> Portfolio </a>
+                </li>
+                <li><a href="contact.html"> Contact </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="headings">
+            Contact
+        </h1>
+
+        <!--I need to figure out how to add a contact form here. What I found online involved PHP and confused me with less than an hour to submit the homework, not enough time to investigate now.-->
+        <form action="/my-handling-form-page" method="post">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </div>
+          </form>
+          <p>Contact form will go here including User's Name, User's Email, and User's Message to Ryan Isaacson (Ryan last minute added these form boxes, but doesn't fully understand them yet, they're copied/pasted code.</p>
+
+    </div>
+
+    <!-- I need to figure out how to get the footer TEXT to stay at bottom of the footer-->
+    
+    <footer>
+        <p id="footernotes" class="fontchanger">Copyright ©</p>
+    </footer>
+</body>
+
+</html>
